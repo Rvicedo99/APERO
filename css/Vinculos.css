@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div{
+    
+    width: 350px;
+    height: 600px;
+   /* border: 2px solid red;*/
+}
+
+.titulo{
+
+    width: 250px;
+    /*border: 2px solid green;*/
+}
+
+h1,h2,h5{
+    padding: 10px;
+    text-align: center;
+    color: orange;  
+}
+
+a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+a > span{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left:-230px;
+   
+ }
+
+a:hover{
+    background: rgb(211, 207, 207);
+    color: white;
+}
